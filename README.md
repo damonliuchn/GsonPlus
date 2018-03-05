@@ -12,6 +12,7 @@
 Map<String, Object> requestMap = gson.fromJson(aa, new TypeToken<Map<String, Object>>() {}.getType());
 List<Object> stringList = gson.fromJson(jsonArray, new TypeToken<List<Object>>() {}.getType());
 ```
+  
 ### 三、使用
 ```groovy
 repositories {
